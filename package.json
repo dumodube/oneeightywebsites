@@ -1,0 +1,11 @@
+{
+  "name": "180projects",
+  "version": "1.0.0",
+  "description": "180 websites in 180 days",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dumo Dube",
+  "license": "ISC"
+}

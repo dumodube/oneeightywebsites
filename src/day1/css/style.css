@@ -1,0 +1,104 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI';
+}
+
+.container{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+/*This is the navigation section*/
+
+.nav-logo{
+	text-decoration: none;
+	color: black;
+	font-weight: 200;
+	font-size:4rem;
+}
+
+.nav-item{
+	float: right;
+	margin:30px;
+}
+
+.nav-link{
+	display: inline;
+	font-size: 1.3rem;
+	padding:10px;
+
+}
+
+.nav-link > a{
+	text-decoration: none;
+	color:black;
+}
+
+.nav-link > a:hover{
+	color:#ccc;
+}
+
+/*This is the end of the navigation section*/
+
+/*This is the beginning of the My Info section*/
+.myinfo{
+	padding: 30px 0;
+}
+.yellow-text{
+	color:orange;
+}
+
+.lg-heading{
+	margin: 0;
+	padding: 0;
+	font-size: 4rem;
+	font-weight: 300;
+}
+
+.sm-heading{
+	margin: 0;
+	padding: 0;
+	font-size: 2rem;
+	font-weight: 400;
+}
+/*This is the end of the My Info section*/
+
+
+/*This is the beginning of the Current Site section*/
+.current-site{
+	text-align: center;
+
+}
+
+.current-site > h3{
+	padding: 10px 0;
+	color:grey;
+	font-weight: 300;
+	font-size: 1.4rem;
+}
+
+.current{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+/*This is the end of the Current Site section*/
+
+/*This is the beginning of the Site List section*/
+.sitelist{
+
+}
+
+.grey-text{
+	color:grey;
+	font-weight: 300;
+	font-size: 1.4rem;
+}
+
+/*This is the end of the Site List section*/
+
+
