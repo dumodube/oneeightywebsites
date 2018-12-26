@@ -1,15 +1,22 @@
-function getRandomColor(){
-	var letters ='0123456789ABCDEF';
-	var color = '#';
+var r;
+var g;
+var b;
+var color;
 
-	for(var i=0;i<6;i++){
-		color+= letters[Math.floor(Math.random() * 16)];
-	}
-	return color;
+
+function getRandomColor(){
+
+
+		r = Math.floor((Math.random() * 255) + 1);
+		g = Math.floor((Math.random() * 255) + 1);
+		b = Math.floor((Math.random() * 255) + 1);
+
+		color = "rgb(" +r+"," + g +"," + b +")";
+
+		return color;
 }
 
-
-function setRandomColor(){
-	const color = document.getElementById('body');
-	color.style.background=getRandomColor();
+function setRandomColor() {
+	const colors = document.getElementById('body');
+	colors.style.background = getRandomColor();
 }
